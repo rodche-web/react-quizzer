@@ -1,0 +1,30 @@
+header {
+    height: 50px;
+    display: flex;
+    background-color: rgb(80, 125, 207);
+    color: white;
+    margin-bottom: 20px;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    list-style-type: none;
+}
+
+.nav_list li {
+    display: inline-block;
+    margin-left: 20px;
+} 
+
+.nav_item {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.nav_item:hover {
+    text-decoration: underline;
+}
