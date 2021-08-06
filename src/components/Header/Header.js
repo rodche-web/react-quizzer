@@ -10,8 +10,8 @@ const Header = () => {
             </div>
             <nav>
                 <ul className='nav_list'>
-                    <li><NavLink to='/' activeClassName='nav_item'>Quiz</NavLink></li>
-                    <li><NavLink to='/form' activeClassName='nav_item'>Add Question</NavLink></li>
+                    <li><NavLink to='/' className='nav_item'>Quiz</NavLink></li>
+                    <li><NavLink to='/form' className='nav_item'>Add Question</NavLink></li>
                 </ul>
             </nav>
         </header>

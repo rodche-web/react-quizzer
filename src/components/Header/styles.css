@@ -26,5 +26,5 @@ header {
 }
 
 .nav_item:hover {
-    text-decoration: underline;
+    border-bottom: 3px solid red;
 }

@@ -26,6 +26,7 @@ const QuizForm = () => {
         if(!(correctAns && question && ans2 && ans3 && ans4)){
             setError('ERROR: Fill in all fields');
             resetState();
+            setTimeout(() => setError(''), 2000);
             return;
         } else {
             await questionRef.add({
