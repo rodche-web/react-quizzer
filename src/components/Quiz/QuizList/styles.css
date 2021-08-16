@@ -16,3 +16,7 @@
     padding: 10px;
     width: 200px;
 }
+
+.quiz_btn:disabled {
+    visibility: hidden;
+}
